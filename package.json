@@ -1,0 +1,30 @@
+{
+  "name": "dropsofheaven",
+  "version": "1.0.0",
+  "description": "Drops of Heaven",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niravshah/dropsofheaven.git"
+  },
+  "author": "Nirav Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niravshah/dropsofheaven/issues"
+  },
+  "homepage": "https://github.com/niravshah/dropsofheaven#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "mongoose": "^4.8.4",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "path": "^0.12.7",
+    "swig": "^1.4.2"
+  }
+}

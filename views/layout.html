@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/views/backup/favicon.png?v=3" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.png?v=1" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../../css/style.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../../css/font-awesome.css" media="screen">
@@ -88,14 +88,15 @@
         "use strict";
         $(document).ready(function() {
             // Main Slider
-            $('.main-flexslider').flexslider({
-                                                 directionNav: true,
-                                                 controlNav: false,
-                                                 animation: "fade",
-                                                 slideshowSpeed: 7000,
-                                                 prevText: "",
-                                                 nextText: "",
-                                             });
+            $('.main-flexslider')
+                .flexslider({
+                     directionNav: true,
+                     controlNav: false,
+                     animation: "fade",
+                     slideshowSpeed: 7000,
+                     prevText: "",
+                     nextText: ""
+                 });
         });
     })(jQuery);
 </script>

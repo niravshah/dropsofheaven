@@ -1,0 +1,59 @@
+body{
+    background: url('/images/bg3.jpg') repeat;
+    background-size: 100px !important;
+}
+.articles-container{
+    width: 100% !important;
+    background-color: white;
+}
+
+.no-float{
+    float: none !important;
+}
+
+.articles{
+    background: #fffffd !important;
+}
+
+.offer{
+    background: #F3B562 url(/images/bake_pattern.png) no-repeat 105%;
+    height: 350px;
+    margin: 20px 0px;
+    padding: 80px 80px;
+    font-family: 'Titillium Web';
+    font-size: 20px;
+}
+
+.doh-slider-container{
+    margin-top:180px;
+}
+
+
+.doh-menu-item{
+    padding: 20px 40px;
+}
+
+.doh-menu-row{
+
+    padding:40px 20px;
+}
+
+.doh-content-container{
+    padding: 0px 20px;
+}
+
+.doh-navbar{
+    background: #5C4B51!important;
+    box-shadow: 0 5px 5px rgba(56, 54, 54, 0.2);
+}
+.doh-container-full{
+    background: #847991!important;
+}
+
+.doh-container{
+    background: #847991!important;
+}
+
+.doh-footer{
+    background: #5C4B51!important
+}

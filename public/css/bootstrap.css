@@ -3244,6 +3244,10 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
   .navbar-nav {
     float:right;
     margin:0;
+    height: 70px;
+    line-height: 70px;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
   }
   .navbar-nav>li {
     float:left;
@@ -3379,6 +3383,15 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 .navbar-default .navbar-nav>li>a {
   color:#777;
+  font-size: 14px;
+  text-align: center;
+  transition: all .2s ease-in-out;
+  font-family: 'Open Sans',sans-serif;
+  background: transparent;
+  letter-spacing: 0.5px;
+  display: block;
+  line-height: 50px;
+  font-weight: 600;
 }
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
   color:#333;
@@ -3403,6 +3416,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 .navbar-default .navbar-collapse,.navbar-default .navbar-form {
   border-color:#e7e7e7;
+  /* display: table-cell; */
 }
 .navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus {
   color:#555;

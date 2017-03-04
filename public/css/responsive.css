@@ -65,8 +65,8 @@
 	}
 }
 .main-flexslider .slides .slides .slide-caption a {
-	font-size:10px;
-	line-height:86px;
+	font-size: 12px;
+	/* line-height:86px; */
 }
 }
 @media (max-width:767px) {

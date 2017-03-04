@@ -16,7 +16,7 @@ body{
 }
 
 .offer{
-    background: #F3B562 url(/images/bake_pattern.png) no-repeat 105%;
+    background: #F7D08A url(/images/bake_pattern.png) no-repeat 105%;
     height: 350px;
     margin: 20px 0px;
     padding: 80px 80px;
@@ -25,7 +25,7 @@ body{
 }
 
 .doh-slider-container{
-    margin-top:180px;
+    margin-top:120px;
 }
 
 
@@ -43,7 +43,7 @@ body{
 }
 
 .doh-navbar{
-    background: #5C4B51!important;
+    background: #69475C!important;
     box-shadow: 0 5px 5px rgba(56, 54, 54, 0.2);
 }
 .doh-container-full{
@@ -55,5 +55,13 @@ body{
 }
 
 .doh-footer{
-    background: #5C4B51!important
+    background: #69475C!important
+}
+.doh-slider-container h2{
+    padding : 20px;
+    font-family: 'Titillium Web';
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+
 }
